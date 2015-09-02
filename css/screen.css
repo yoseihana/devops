@@ -1,0 +1,56 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic|Lobster);
+/* Global */
+/* line 11, ../sass/screen.scss */
+body, h1, h2, h3, h4 {
+  font-family: 'Lato', 'Helvetica Neue', Roboto, Arial, sans-serif;
+}
+
+/* line 15, ../sass/screen.scss */
+h1 {
+  font-size: 48px;
+}
+
+/* line 19, ../sass/screen.scss */
+h2 {
+  font-size: 42px;
+}
+
+/* line 23, ../sass/screen.scss */
+.content {
+  padding: 2rem 0;
+}
+
+/* line 27, ../sass/screen.scss */
+.lobster {
+  font-family: "Lobster", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+/* line 31, ../sass/screen.scss */
+.slogan {
+  font-size: 36px;
+}
+
+/* Header */
+/* line 37, ../sass/screen.scss */
+header {
+  background-color: #4C4847;
+}
+
+/* Postheader */
+/* line 44, ../sass/screen.scss */
+.postheader {
+  background: url("../img/background.png");
+  color: white;
+}
+/* line 48, ../sass/screen.scss */
+.postheader h2, .postheader h3 {
+  color: white;
+}
+/* line 52, ../sass/screen.scss */
+.postheader .slogan {
+  color: white;
+}
