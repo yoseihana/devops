@@ -59,12 +59,28 @@ header{
 /* Postheader */
 
 .postheader{
-  background: url('../img/background.png');
-  color: white;
-
-  h2, h3{
+    background: url('../img/background.JPG') no-repeat fixed center top / cover;
     color: white;
+    display: block;
+    height: 664px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+
+  h2{
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    z-index: 55;
   }
+
+  h3{
+    color: white;
+    font-size: 28px;
+  }
+
 
   .slogan{
     color: white;
