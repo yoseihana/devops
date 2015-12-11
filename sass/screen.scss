@@ -146,9 +146,17 @@ header{
     position: relative;
     width: 100%;
 
-    .formpostheader{
+  .other{
+    background: rgba(36, 65, 75, 0.9);
+    position:absolute;
+    height: 664px;
+    width: 100%;
+    margin-top:-32px;
+  }
+
+  .formpostheader{
     margin-top:50px;
-    }
+   }
 
   p{
     color:white;
@@ -224,7 +232,7 @@ header{
   }
 
   .bottompostheader{
-    margin-top:250px;
+    margin-top:270px;
   }
 
 
@@ -277,7 +285,5 @@ footer{
   .inline-list li {
     margin-left: 2px;
   }
-
-
   
 }
