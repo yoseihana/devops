@@ -19,17 +19,93 @@ h1{
 h2{
   font-size: 42px;
 }
+p{
+  color: rgb(51, 51, 51);
+}
+.size28{
+  font-size:28px;
+  text-align:center;
+  font-weight:bolder;
+}
+
+.size26{
+  font-size:26px;
+  text-align:center;
+  line-height:0;
+  font-weight:bolder;
+}
+
+.size22{
+  font-size:22px;
+  text-align:center;
+  font-weight:bolder;
+}
+
+
+h4{
+  font-size:30px;
+  font-weight:bolder;
+  margin:15px;
+}
 
 .content{
   padding: 2rem 0;
+
+  h4{
+    font-size:28px;
+    font-weight:bolder;
+    text-align: center;
+    margin:0px;
+
+  }
+
+  .space{
+    margin-top:40px;
+  }
+
+  hr{
+    border-color: rgba(202, 32, 39, 1);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+    width: 50px;
+    margin-top:25px;
+    margin-left:300px;
+  }
+
+  .whatimage{
+    width:100%;
+    margin-left: 453px;
+    margin-top: -480px;
+  }
+
+  
 }
 
 .lobster{
   font-family: "Lobster", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
+.lobsterred{
+   font-family: "Lobster", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+   color:rgba(202, 32, 39, 1);
+   text-decoration:underline;
+   font-weight: bolder;
+}
+
 .slogan{
   font-size: 36px;
+}
+
+.goodlist{
+  list-style-image: url('../img/true.png');
+  line-height:0;
+}
+
+.wronglist{
+  list-style-image: url('../img/false.png');
+  line-height:0;
 }
 
 
