@@ -59,6 +59,8 @@ h4{
 
   }
 
+
+
   .space{
     margin-top:40px;
   }
@@ -145,6 +147,14 @@ header{
     position: relative;
     width: 100%;
 
+  p{
+    color:white;
+  }
+
+  label{
+    color:white;
+  }
+
   h2{
     color: white;
     font-size: 48px;
@@ -152,9 +162,43 @@ header{
     z-index: 55;
   }
 
+  .button{
+    background-color: rgba(168, 64, 61, 1) ;
+  }
+
   h3{
     color: white;
     font-size: 28px;
+  }
+
+  .mc-field-group label{
+    display:inline;
+    width:20%;
+    
+  }
+  .mc-field-group input{
+    display:inline;
+    width: 45%;
+    border-radius:5px;
+    padding:8px
+  }
+
+  .mc-field-group div {
+    display:inline;
+  }
+
+  .size12{
+    font-size:12px;
+    margin-top:-20px;
+  }
+
+  .size17{
+    font-size:17px;
+    color:#c6cacc;
+  }
+  .size24{
+    font-size:24px;
+    font-weight:bolder;
   }
 
 
@@ -198,7 +242,7 @@ footer{
   img{
     margin:5px;
   }
-  
+
   .inline-list > li > * {
     display:inline;
   }
