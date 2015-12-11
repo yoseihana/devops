@@ -197,16 +197,19 @@ footer .footer {
   padding-top: 30px;
 }
 /* line 193, ../sass/screen.scss */
-footer img {
+footer .agileimage {
+  margin-top: -10px;
   padding-bottom: 10px;
 }
 /* line 198, ../sass/screen.scss */
-footer li {
-  display: inline;
-  border-right: 1px solid  white;
-  padding-right: 5px;
+footer img {
+  margin: 5px;
 }
-/* line 205, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
+footer .inline-list > li > * {
+  display: inline;
+}
+/* line 206, ../sass/screen.scss */
 footer .inline-list li {
-  margin-left: 5px;
+  margin-left: 2px;
 }

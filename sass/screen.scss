@@ -190,21 +190,23 @@ footer{
     padding-top:30px;
   }
 
-  img{
-    padding-bottom:10px;
+  .agileimage{
+    margin-top: -10px;
+    padding-bottom: 10px;
+  }
 
+  img{
+    margin:5px;
   }
   
-  li{
-  display:inline;
-  border-right: 1px solid  white;
-  padding-right: 5px;
- 
+  .inline-list > li > * {
+    display:inline;
   }
 
   .inline-list li {
-    margin-left: 5px;
+    margin-left: 2px;
   }
+
 
   
 }
