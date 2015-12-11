@@ -162,3 +162,49 @@ header{
     color: white;
   }
 }
+
+/* Footer */
+
+footer{
+  background-color:rgba(76, 72, 71, 1);
+  color:white;
+  height: 144px;
+
+  ul{
+    font-size:11px;
+    display:inline-block;
+  }
+
+  a , a:hover{
+    color: #ca2027;
+    text-decoration:underline;
+    display:inline;
+  }
+
+  p{
+    font-size:9px;
+    color:white;
+  }
+
+  .footer{
+    padding-top:30px;
+  }
+
+  img{
+    padding-bottom:10px;
+
+  }
+  
+  li{
+  display:inline;
+  border-right: 1px solid  white;
+  padding-right: 5px;
+ 
+  }
+
+  .inline-list li {
+    margin-left: 5px;
+  }
+
+  
+}
