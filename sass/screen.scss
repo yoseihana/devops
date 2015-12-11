@@ -90,7 +90,6 @@ h4{
 }
 
 .lobsterred{
-   font-family: "Lobster", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
    color:rgba(202, 32, 39, 1);
    text-decoration:underline;
    font-weight: bolder;
@@ -147,19 +146,27 @@ header{
     position: relative;
     width: 100%;
 
+    .formpostheader{
+    margin-top:50px;
+    }
+
   p{
     color:white;
+  }
+
+  img{
+    margin-left: 50px;
+    margin-top: -50px;
   }
 
   label{
     color:white;
   }
 
-  h2{
+  h1{
     color: white;
     font-size: 48px;
     font-weight: bolder;
-    z-index: 55;
   }
 
   .button{
@@ -169,6 +176,12 @@ header{
   h3{
     color: white;
     font-size: 28px;
+    margin-left:200px;
+  }
+
+  .mc-field-group {
+    margin-top:-10px;
+    
   }
 
   .mc-field-group label{
@@ -201,9 +214,23 @@ header{
     font-weight:bolder;
   }
 
+  .size28{
+    font-size:28px;
+    font-weight:bolder;
+  }
+
+  .mailcontainer{
+  margin-top:20px;
+  }
+
+  .bottompostheader{
+    margin-top:250px;
+  }
+
 
   .slogan{
     color: white;
+    line-height:1;
   }
 }
 
