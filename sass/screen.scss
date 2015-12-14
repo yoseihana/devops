@@ -74,11 +74,6 @@ h4{
     margin-left:300px;
   }
 
-  .whatimage{
-    width:100%;
-    margin-left: 453px;
-    margin-top: -480px;
-  }
 
   
 }
@@ -105,7 +100,7 @@ h4{
 }
 
 .wronglist li {
-  list-style-type: none;
+ list-style-type: none;
  background-image: url('../img/false.png');
  background-repeat: no-repeat;
  padding-left: 30px;
@@ -203,7 +198,12 @@ header{
     display:inline;
     width: 45%;
     border-radius:5px;
-    padding:8px
+    padding:8px;
+    
+  }
+
+  #mce-EMAIL{
+    background-color:#1f3942;
   }
 
   .mc-field-group div {
@@ -282,6 +282,7 @@ footer{
 
   .inline-list > li > * {
     display:inline;
+
   }
 
   .inline-list li {
@@ -289,3 +290,76 @@ footer{
   }
   
 }
+
+@media only screen and (max-width: 40em) {
+
+  .whatimage{
+    display:none;
+  }
+
+  .upimage{
+    display:none;
+  }
+
+  .rocketimage{
+    display:none;
+  }
+
+  .content{
+
+    .size26{
+      font-size: 24px;
+    }
+
+    .size28{
+      font-size: 26px;
+    }
+
+    hr{
+      margin-left:200px;
+    }
+  } 
+
+  .postheader{
+    height:443px;
+
+    h3{
+      display:none;
+    }
+
+    h1{
+      font-size:24px;
+    }
+
+    p{
+      font-size:20px;
+      margin-top:-25px;
+    }
+
+    .size24{
+      display:none;
+    }
+
+    .mc-field-group input{
+      display:inline;
+      width: 100%;
+      border-radius:5px;
+      padding:8px;
+    
+    }
+
+    .size28{
+    font-size:18px;
+    margin-top:-20px;
+    }
+
+    .other{
+      height:443px
+    }
+
+
+
+  }
+
+
+ }
